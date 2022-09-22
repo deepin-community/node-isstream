@@ -1,0 +1,13 @@
+node-isstream (0.1.2+dfsg-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Sun, 27 Dec 2020 18:56:49 +0100
+
+node-isstream (0.1.2+dfsg-1) unstable; urgency=low
+
+  * Initial release (Closes: #802012)
+  * Patch README.md to fix spelling
+
+ -- Ross Gammon <rossgammon@mail.dk>  Wed, 30 Dec 2015 12:19:07 +0100

@@ -1,0 +1,3 @@
+The upstream source includes two tarballs with the readable-stream
+source. These tarballs have been excluded because the stream module
+in nodejs-core is now stable and can be used instead.

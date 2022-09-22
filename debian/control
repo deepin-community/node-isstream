@@ -1,0 +1,24 @@
+Source: node-isstream
+Section: web
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Ross Gammon <rossgammon@mail.dk>
+Build-Depends: debhelper (>= 9),
+               dh-buildinfo,
+               nodejs
+Standards-Version: 3.9.6
+Homepage: https://github.com/rvagg/isstream
+Vcs-Git: git://anonscm.debian.org/pkg-javascript/node-isstream.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-isstream.git
+
+Package: node-isstream
+Architecture: all
+Depends: ${misc:Depends},
+         nodejs
+Description: Determine if an object is a Stream
+ The missing Stream.isStream(obj): determine if an object is standard
+ Node.js Stream. Works for Node-core Stream objects (for 0.8, 0.10, 0.11,
+ and in theory, older and newer versions) and all versions of
+ readable-stream.
+ .
+ Node.js is an event-based server-side JavaScript engine.

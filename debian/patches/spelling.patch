@@ -1,0 +1,14 @@
+Description: Fix Spelling Error
+ Patched README.md to fix spelling licence/licenced > license/licensed
+Forwarded: https://github.com/rvagg/isstream/pull/5
+Author: Ross Gammon <rossgammon@mail.dk>
+Last-Update: 2015-12-30
+
+--- node-isstream.orig/README.md
++++ node-isstream/README.md
+@@ -63,4 +63,4 @@
+ 
+ ## License
+ 
+-**isStream** is Copyright (c) 2015 Rod Vagg [@rvagg](https://twitter.com/rvagg) and licenced under the MIT licence. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE.md file for more details.
++**isStream** is Copyright (c) 2015 Rod Vagg [@rvagg](https://twitter.com/rvagg) and licensed under the MIT license. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE.md file for more details.
